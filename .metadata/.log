@@ -598,3 +598,123 @@ java.lang.IllegalStateException: Repository already exists: /Users/srrajeev/Docu
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.egit.core 4 0 2015-12-06 09:40:43.268
+!MESSAGE An exception occurred during push on URI https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:482)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:387)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:154)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.core 4 0 2015-12-06 09:41:28.190
+!MESSAGE An exception occurred during push on URI https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:482)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:387)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:154)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.core 4 0 2015-12-06 09:42:26.336
+!MESSAGE An exception occurred during push on URI ssh://github.com/srrajeev-aws/: ssh://github.com/srrajeev-aws/: Auth fail
+!STACK 0
+org.eclipse.jgit.errors.TransportException: ssh://github.com/srrajeev-aws/: Auth fail
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:159)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:136)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:320)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:166)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:154)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:512)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 8 more
+
+!ENTRY org.eclipse.egit.core 4 0 2015-12-06 09:43:23.467
+!MESSAGE An exception occurred during push on URI https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:482)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:387)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:154)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.core 4 0 2015-12-06 09:43:43.868
+!MESSAGE An exception occurred during push on URI https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/srrajeev-aws/: https://github.com/srrajeev-aws/info/refs?service=git-receive-pack not found
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:482)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:387)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:154)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:209)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-12-10 14:01:23.648 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/srrajeev/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/srrajeev/.eclipse_keyring -showlocation
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2015-12-10 14:01:40.292
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2015-12-10 14:01:41.771
+!MESSAGE Monitoring content of /Users/srrajeev/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2015-12-10 14:01:41.774
+!MESSAGE AWS toolkit core plugin initialized after 1483 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2015-12-10 14:01:43.174
+!MESSAGE Downloading the SDK from CloudFront to location /var/folders/f1/rq38xky14fj_l14wdxjvw9kdr72wd3/T/aws-java-sdk1264031268685870644/sdk.zip
+
+!ENTRY org.eclipse.ui 2 0 2015-12-10 14:01:48.199
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2015-12-10 14:02:10.570
+!MESSAGE SDK download completes. Location: /var/folders/f1/rq38xky14fj_l14wdxjvw9kdr72wd3/T/aws-java-sdk1264031268685870644/sdk.zip, File-length: 141454402
+!SESSION 2015-12-16 16:19:10.074 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/srrajeev/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/srrajeev/.eclipse_keyring -showlocation
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2015-12-16 16:19:19.511
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2015-12-16 16:19:21.137
+!MESSAGE Monitoring content of /Users/srrajeev/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2015-12-16 16:19:21.140
+!MESSAGE AWS toolkit core plugin initialized after 1631 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2015-12-16 16:19:22.624
+!MESSAGE Downloading the SDK from CloudFront to location /var/folders/f1/rq38xky14fj_l14wdxjvw9kdr72wd3/T/aws-java-sdk9049620628026624024/sdk.zip
+
+!ENTRY org.eclipse.ui 2 0 2015-12-16 16:19:29.278
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.amazonaws.eclipse.sdk.ui 1 0 2015-12-16 16:19:39.758
+!MESSAGE SDK download completes. Location: /var/folders/f1/rq38xky14fj_l14wdxjvw9kdr72wd3/T/aws-java-sdk9049620628026624024/sdk.zip, File-length: 141504205
