@@ -1,0 +1,31 @@
+import java.util.*;
+
+public abstract class Animal {
+
+	public Animal(String sound){
+		
+		if!(Arrays.asList(_allowedAnimals).contains(getClass().getName())){
+			throw new RuntimeException("Animal not allowed");
+		}
+		
+		_sound = sound;
+	}
+	
+	String getSound() {
+		return _sound;
+	}
+	
+	void speak() {
+		String animalName = getClass().getName();
+		System.out.println("The " + animalName + " says " + getSound());
+	}
+	
+	public static List<String> getAllowedAnimals() {
+		return Arrays.asList(_allowedAnimals);
+		
+	}
+	
+	private String _sound;
+	private static String[] _allowedAnimals = {"Dog" , "Cat"};
+	
+}

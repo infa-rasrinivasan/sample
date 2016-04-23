@@ -160,6 +160,7 @@
       <service name="CloudWatch">https://monitoring.eu-central-1.amazonaws.com/</service>
       <service name="DynamoDB">https://dynamodb.eu-central-1.amazonaws.com/</service>
       <service name="DynamoDBStream">https://streams.dynamodb.us-eu-central-1.amazonaws.com/</service>
+	  <service name="Lambda">https://lambda.eu-central-1.amazonaws.com/</service>
 	  <service name="Kinesis">https://kinesis.eu-central-1.amazonaws.com/</service>
 	  <service name="Logs">https://logs.eu-central-1.amazonaws.com/</service>	  	  
     </services>
@@ -218,6 +219,33 @@
 	  <service name="Kinesis">https://kinesis.ap-northeast-1.amazonaws.com/</service>
 	  <service name="Logs">https://logs.ap-northeast-1.amazonaws.com/</service>	  	  
 	  <service name="Lambda">https://lambda.ap-northeast-1.amazonaws.com/</service>
+    </services>
+  </region>
+
+  <region>
+    <displayname>Asia Pacific (Seoul)</displayname>
+    <systemname>ap-northeast-2</systemname>
+    <flag-icon>flags/south_korea.png</flag-icon>
+    <min-toolkit-version>0.5.0.0</min-toolkit-version>
+    <services>
+      <service name="S3">https://s3.ap-northeast-2.amazonaws.com/</service>
+      <service name="CloudFront">https://cloudfront.amazonaws.com/</service>
+      <service name="IAM">https://iam.amazonaws.com/</service>
+      <service name="SNS">http://sns.ap-northeast-2.amazonaws.com/</service>
+      <service name="SQS">http://sqs.ap-northeast-2.amazonaws.com/</service>
+      <service name="EC2">https://ec2.ap-northeast-2.amazonaws.com/</service>
+      <service name="RDS">https://rds.ap-northeast-2.amazonaws.com/</service>
+      <service name="CloudFormation">https://cloudformation.ap-northeast-2.amazonaws.com/</service>
+      <service name="ElasticBeanstalk">https://elasticbeanstalk.ap-northeast-2.amazonaws.com/</service>
+      <service name="GitPush">https://git.elasticbeanstalk.ap-northeast-2.amazonaws.com/</service>
+      <service name="ELB">https://elasticloadbalancing.ap-northeast-2.amazonaws.com/</service>
+      <service name="AutoScaling">https://autoscaling.ap-northeast-2.amazonaws.com/</service>
+      <service name="CloudWatch">https://monitoring.ap-northeast-2.amazonaws.com/</service>
+      <service name="CodeDeploy">https://codedeploy.ap-northeast-2.amazonaws.com/</service>
+      <service name="DynamoDB">https://dynamodb.ap-northeast-2.amazonaws.com/</service>
+      <service name="DynamoDBStream">https://streams.dynamodb.ap-northeast-2.amazonaws.com/</service>
+      <service name="Kinesis">https://kinesis.ap-northeast-2.amazonaws.com/</service>
+      <service name="Logs">https://logs.ap-northeast-2.amazonaws.com/</service>       
     </services>
   </region>
 

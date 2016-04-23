@@ -1,0 +1,19 @@
+
+public class EMRBootCampPrerequisite {
+
+	public static void main(String[] args) throws InstantiationException {
+		
+		System.out.println(Animal.getAllowedAnimals());
+		
+		Dog dog = new Dog();
+		dog.speak();
+		dog.bark();
+		
+		Cat cat = new Cat();
+		cat.speak();
+		cat.mioa();
+		
+		NotAllowedAnimal notAllowedAnimal = new NotAllowedAnimal();
+	}
+
+}

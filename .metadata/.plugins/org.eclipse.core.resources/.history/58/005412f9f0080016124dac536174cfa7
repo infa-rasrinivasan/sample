@@ -1,0 +1,9 @@
+
+public class NotAllowedAnimal extends Animal{
+
+	public NotAllowedAnimal() {
+		// TODO Auto-generated constructor stub
+		super("booooooo");
+	}
+
+}

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.amazonaws.retry.PredefinedRetryPolicies.SDKDefaultRetryCondition"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.simpledb.model.CreateDomainRequest"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.simpledb.model.PutAttributesRequest"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.ec2.model.DescribeImagesRequest"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.ec2.model.Filter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+</qualifiedTypeNameHistroy>

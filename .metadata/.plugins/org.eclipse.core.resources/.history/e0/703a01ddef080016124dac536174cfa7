@@ -1,0 +1,8 @@
+
+public class NotAllowedAnimal {
+
+	public NotAllowedAnimal() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

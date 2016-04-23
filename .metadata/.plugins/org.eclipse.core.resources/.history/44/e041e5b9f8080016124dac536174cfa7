@@ -1,0 +1,56 @@
+import java.util.*;
+
+public class EMRBootCampPrerequisite {
+
+	public static void main(String[] args) throws InstantiationException {
+		
+		System.out.println(Animal.getAllowedAnimals());
+		
+		Dog dog = new Dog();
+		dog.speak();
+		dog.bark();
+		
+		Cat cat = new Cat();
+		cat.speak();
+		cat.mioa();
+		
+		//NotAllowedAnimal notAllowedAnimal = new NotAllowedAnimal();
+		
+		WordOccuranceCount("I am planning to EMR Boot Camp from Arpil 25th to May 13th.");
+		
+		
+	}
+	
+	
+	private static void WordOccuranceCount(String text) {
+		
+		if(text.length() < 0) {
+			throw new IllegalArgumentException("Input string length cannot be zero.");
+		}
+
+		Hashtable<String, Integer> wordCount = new Hashtable<String, Integer>();
+		
+		for(String word : text.split("\\W+")) {
+			
+			Integer value = wordCount.get(word);
+			
+			if(value == null) {
+				value = 1;
+			}
+			else {
+				value = value + 1;
+			}
+
+			wordCount.put(word, value);
+		}
+		
+		Enumeration<String> wordCountEn = wordCount.keys();
+		
+		while(wordCountEn.hasMoreElements()) {
+			
+			String key = wordCountEn.nextElement();
+			
+			System.out.println("Word= " + key +";Count= " + wordCount.get(key));
+		}
+	}
+}

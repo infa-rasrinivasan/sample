@@ -1,0 +1,22 @@
+
+public class Animal {
+
+	public Animal(String sound){
+		_sound = sound;
+	}
+	
+	String getSound() {
+		return _sound;
+	}
+	
+	void Speak() {
+		System.out.println(The );
+	}
+	
+	static String[] getAllowedAnimals(){
+		return null;
+	}
+	
+	private String _sound;
+
+}

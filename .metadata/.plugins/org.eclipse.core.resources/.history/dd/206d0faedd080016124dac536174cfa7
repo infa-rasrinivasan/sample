@@ -1,0 +1,12 @@
+
+public class Dog extends Animal  {
+
+	public Dog() {
+		// TODO Auto-generated constructor stub
+		super("Voff, voff");
+	}
+	
+	public void bark(){
+		System.out.println("Voff, voff");
+	}
+}

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesEndpoint.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesErrorMarshaller.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesErrors.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/Compute.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/ComputeType.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/CreateWorkspacesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/CreateWorkspacesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DefaultWorkspaceCreationProperties.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DescribeWorkspaceBundlesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DescribeWorkspaceBundlesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DescribeWorkspaceDirectoriesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DescribeWorkspaceDirectoriesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DescribeWorkspacesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/DescribeWorkspacesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/FailedCreateWorkspaceRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/FailedWorkspaceChangeRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/RebootRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/RebootWorkspacesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/RebootWorkspacesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/RebuildRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/RebuildWorkspacesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/RebuildWorkspacesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/TerminateRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/TerminateWorkspacesRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/TerminateWorkspacesResult.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/UserStorage.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/Workspace.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/WorkspaceBundle.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/WorkspaceDirectory.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/WorkspaceDirectoryState.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/WorkspaceDirectoryType.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/WorkspaceRequest.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-workspaces.dir/source/model/WorkspaceState.cpp.o"
+  "libaws-cpp-sdk-workspaces.pdb"
+  "libaws-cpp-sdk-workspaces.dylib"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/aws-cpp-sdk-workspaces.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

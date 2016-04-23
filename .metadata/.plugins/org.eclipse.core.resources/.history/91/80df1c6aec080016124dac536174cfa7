@@ -1,0 +1,18 @@
+
+public abstract class Animal {
+
+	public Animal(String sound) {	
+		_sound = sound;
+	}
+	
+	String getSound() {
+		return _sound;
+	}
+	
+	void speak() {
+		String animalName = getClass().getName().toString();
+		System.out.println("The " + animalName + " says " + getSound());
+	}
+	
+	private String _sound;
+}

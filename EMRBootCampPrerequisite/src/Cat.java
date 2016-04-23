@@ -1,0 +1,13 @@
+
+public class Cat extends Animal{
+
+	public Cat() throws InstantiationException {
+		// TODO Auto-generated constructor stub
+		super("mioa");
+	}
+	
+	public void mioa(){
+		System.out.println(getSound());
+	}
+
+}
